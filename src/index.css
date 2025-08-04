@@ -10,6 +10,7 @@
     font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #f7f6ef;
   }
 
   img, picture, video, canvas, svg {
@@ -34,7 +35,7 @@
     border-collapse: collapse;
     border-spacing: 0;
   }
-
+  
   .content{
     display: flex;
     flex-direction: column;
