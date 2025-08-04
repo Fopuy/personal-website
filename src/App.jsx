@@ -4,30 +4,30 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <div className = "content">
+            <div className = "header">
+              <ul>
+                <a href="#">Stack</a>
+                <a href="#">Experience</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+              </ul>
+            </div>
+            <div className = "main">
+              <p> Hi I'm Joshua De Jesus. I am an aspiring fullstack developer with a passion for building applications. 
+                  I grew my interest with my past work experiences as a network engineer where I found that I enjoyed the 
+                  engineering aspects the most. I've been self-teaching myself software engineering through the Odin Project 
+                  and I want to showcase my growth on this page.</p>
+            </div>
+            <div className = "footer">
+              <p>Designed and coded by Joshua De Jesus © 2025</p>
+            </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
