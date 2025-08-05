@@ -1,12 +1,15 @@
 export default function Header(){
     return (
         <div className="header">
-            <ul>
-                <li><a href="#">Stack</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div id="header-left">
+                <a href="#home">Home</a>
+            </div>
+            <div id="header-right">
+                <a href="#about">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Projects</a>
+                <a href="#">CV</a>
+            </div>
         </div>
     );
 }

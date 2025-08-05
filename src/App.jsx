@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Components/header'
-import Main from './Components/main'
+import About from './Components/about'
 import Footer from './Components/footer'
+import Skills from './Components/skills'
+import Home from './Components/home'
 
 function App() {
 
@@ -13,7 +12,9 @@ function App() {
       <div>
         <div className = "content">
           <Header />
-          <Main />
+          <Home />
+          <About />
+          <Skills />
           <Footer />
         </div>
       </div>
